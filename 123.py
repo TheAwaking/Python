@@ -16,7 +16,7 @@ words_starting_with_y = [word.lower() for word in
                          "Yellow Yaks like yelling and yawning and yesturday they yodled while eating yuky yams".split()
                          if word.lower().startswith('y')]
 
-# Для каждого элемента строки  "hi, 3.44, 535  " сгенерировать коллекцию кортежей вида (индекс  значение)
+# Для каждого элемента строки  "hi, 3.44, 535  " сгенерировать коллекцию кортежей вида (индекс and значение)
 
 tuple_list = "hi, 3.44, 535  "
 result = [(index, char) for index, char in enumerate(tuple_list)]
